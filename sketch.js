@@ -80,10 +80,7 @@ function draw() {
   background(189);
   image(backgroundImg, 0, 0, width, height);
 
-  if (!backgroundMusic.isPlaying()) {
-    backgroundMusic.play();
-    backgroundMusic.setVolume(0.1);
-  }
+// adicionar som do fundo 
 
   Engine.update(engine);
  
